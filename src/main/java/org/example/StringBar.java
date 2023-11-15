@@ -24,6 +24,7 @@ public class StringBar extends Bar {
     @Override
     public void endHappyHour() {
         isHappyHour = false;
+        notifyObservers();
     }
 
 }
